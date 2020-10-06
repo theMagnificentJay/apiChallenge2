@@ -10,7 +10,7 @@ let apiTargetSymbols = '&symbols=BTC,ETH';
 // let monthNow = 10;
 // let yearNow = 2020;
 
-const baseURL = 'https://api.coinlayer.com/api/';
+const baseURL = 'http://api.coinlayer.com/api/';
 let access_key = '?access_key=5a2fc43817e753f3a0c608b7298f32d1'
 let apiEndPointList = 'list';
 let apiEndPointLive = 'live';
