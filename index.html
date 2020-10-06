@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="#">
+        <!-- /FAVICON -->
+    
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- /BOOTSRAP -->
+    
+        <!-- MY CSS -->
+        <link rel="stylesheet" href="./styles.css">
+        <!-- /MY CSS -->
+
+    <title>Coinlayer API</title>
+</head>
+
+<body>
+
+    <!-- BOOTSTRAP NAV -->
+    <nav class="navbar fixed-top navbar-light justify-content-center">
+        <a class="navbar-brand" href="#linkTop">Crypto Currency Exchange Rates</a>
+    </nav>
+    <!-- /BOOTSTRAP NAV -->
+
+    <a id="linkTop"></a>
+
+    <div id="mainContainer">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <h5>Exchange Rate</h5>
+                <p>History</p>
+                <hr>
+                <p>
+                    <canvas id="rateHist"></canvas>
+                </p>
+              </div>
+              <div class="col">
+                <h5>Exchange Rate</h5>
+                <p>Current</p>
+                <hr>
+                <p>
+                    <canvas id="rateCurrent"></canvas>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <!-- <p>1 of 4</p> -->
+                <div class="r2c1"></div>
+              </div>
+              <div class="col">
+                <!-- <p>2 of 4</p> -->
+                <div class="r2c2"></div>
+              </div>
+              <div class="col">
+                <!-- <p>3 of 4</p> -->
+                <div class="r2c3"></div>
+              </div>
+              <div class="col">
+                <!-- <p>4 of 4</p> -->
+                <div class="r2c4"></div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="https://coinlayer.com" target="_blank">Coinlayer</a>
+                    <br>
+                    <a href="https://coinlayer.com/documentation" target="_blank">API Documentation</a>
+                </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    
+        <!-- CHART.js -->
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <!-- /CHART.js -->
+
+        <!-- BOOTSTRAP -->
+
+        <!-- /BOOTSTRAP -->
+
+        <!-- MY SCRIPT -->
+            <script src="./script.js"></script>
+        <!-- /MY SCRIPT -->
+    
+    <!-- /SCRIPTS -->
+
+</body>
+
+</html>
